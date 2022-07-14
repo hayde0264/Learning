@@ -68,13 +68,21 @@
 			path = Combine;
 			sourceTree = "<group>";
 		};
-		32C9A60D287F40FD009EB7CA = {
+		327C9FA5287F9D9500C4E45A /* Karate */ = {
 			isa = PBXGroup;
 			children = (
-				327C9FA2287F8FFA00C4E45A /* Combine */,
 				327C9FA1287F8FDA00C4E45A /* Core Data */,
 				327C9FA0287F8FD500C4E45A /* @ */,
 				32C9A642287F4399009EB7CA /* Algorithms */,
+				327C9FA2287F8FFA00C4E45A /* Combine */,
+			);
+			path = Karate;
+			sourceTree = "<group>";
+		};
+		32C9A60D287F40FD009EB7CA = {
+			isa = PBXGroup;
+			children = (
+				327C9FA5287F9D9500C4E45A /* Karate */,
 				32C9A612287F40FD009EB7CA /* Shared */,
 				32C9A621287F40FF009EB7CA /* macOS */,
 				32C9A61B287F40FF009EB7CA /* Products */,

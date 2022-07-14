@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32C9A623287F40FF009EB7CA /* Algorithms___Data_StructuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A613287F40FD009EB7CA /* Algorithms___Data_StructuresApp.swift */; };
-		32C9A624287F40FF009EB7CA /* Algorithms___Data_StructuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A613287F40FD009EB7CA /* Algorithms___Data_StructuresApp.swift */; };
+		327C9FA4287F900F00C4E45A /* contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA3287F900F00C4E45A /* contents.swift */; };
+		32C9A623287F40FF009EB7CA /* Karate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A613287F40FD009EB7CA /* Karate.swift */; };
+		32C9A624287F40FF009EB7CA /* Karate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A613287F40FD009EB7CA /* Karate.swift */; };
 		32C9A625287F40FF009EB7CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A614287F40FD009EB7CA /* ContentView.swift */; };
 		32C9A626287F40FF009EB7CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A614287F40FD009EB7CA /* ContentView.swift */; };
 		32C9A627287F40FF009EB7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C9A615287F40FF009EB7CA /* Assets.xcassets */; };
 		32C9A628287F40FF009EB7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C9A615287F40FF009EB7CA /* Assets.xcassets */; };
+		32C9A644287F45EC009EB7CA /* contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A643287F45EC009EB7CA /* contents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		32C9A613287F40FD009EB7CA /* Algorithms___Data_StructuresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Algorithms___Data_StructuresApp.swift"; sourceTree = "<group>"; };
+		327C9FA3287F900F00C4E45A /* contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contents.swift; sourceTree = "<group>"; };
+		32C9A613287F40FD009EB7CA /* Karate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate.swift; sourceTree = "<group>"; };
 		32C9A614287F40FD009EB7CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32C9A615287F40FF009EB7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		32C9A61A287F40FF009EB7CA /* Algorithms & Data Structures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algorithms & Data Structures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32C9A620287F40FF009EB7CA /* Algorithms & Data Structures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algorithms & Data Structures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C9A61A287F40FF009EB7CA /* Karate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C9A620287F40FF009EB7CA /* Karate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C9A622287F40FF009EB7CA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		32C9A643287F45EC009EB7CA /* contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,9 +46,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		327C9FA0287F8FD500C4E45A /* @ */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "@";
+			sourceTree = "<group>";
+		};
+		327C9FA1287F8FDA00C4E45A /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		327C9FA2287F8FFA00C4E45A /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				327C9FA3287F900F00C4E45A /* contents.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
 		32C9A60D287F40FD009EB7CA = {
 			isa = PBXGroup;
 			children = (
+				327C9FA2287F8FFA00C4E45A /* Combine */,
+				327C9FA1287F8FDA00C4E45A /* Core Data */,
+				327C9FA0287F8FD500C4E45A /* @ */,
+				32C9A642287F4399009EB7CA /* Algorithms */,
 				32C9A612287F40FD009EB7CA /* Shared */,
 				32C9A621287F40FF009EB7CA /* macOS */,
 				32C9A61B287F40FF009EB7CA /* Products */,
@@ -54,7 +84,7 @@
 		32C9A612287F40FD009EB7CA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				32C9A613287F40FD009EB7CA /* Algorithms___Data_StructuresApp.swift */,
+				32C9A613287F40FD009EB7CA /* Karate.swift */,
 				32C9A614287F40FD009EB7CA /* ContentView.swift */,
 				32C9A615287F40FF009EB7CA /* Assets.xcassets */,
 			);
@@ -64,8 +94,8 @@
 		32C9A61B287F40FF009EB7CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32C9A61A287F40FF009EB7CA /* Algorithms & Data Structures.app */,
-				32C9A620287F40FF009EB7CA /* Algorithms & Data Structures.app */,
+				32C9A61A287F40FF009EB7CA /* Karate.app */,
+				32C9A620287F40FF009EB7CA /* Karate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,12 +108,140 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		32C9A631287F418C009EB7CA /* 1-BigO */ = {
+			isa = PBXGroup;
+			children = (
+				32C9A643287F45EC009EB7CA /* contents.swift */,
+			);
+			path = "1-BigO";
+			sourceTree = "<group>";
+		};
+		32C9A632287F4198009EB7CA /* 2-Arrays */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2-Arrays";
+			sourceTree = "<group>";
+		};
+		32C9A633287F41A1009EB7CA /* 3-LinkedLists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3-LinkedLists";
+			sourceTree = "<group>";
+		};
+		32C9A634287F41AD009EB7CA /* 4-Big0(Reduced) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "4-Big0(Reduced)";
+			sourceTree = "<group>";
+		};
+		32C9A635287F41C5009EB7CA /* 5-Stacks & Queues */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "5-Stacks & Queues";
+			sourceTree = "<group>";
+		};
+		32C9A636287F41DE009EB7CA /* 6-HashTables */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "6-HashTables";
+			sourceTree = "<group>";
+		};
+		32C9A637287F4214009EB7CA /* 7-BinaryTrees */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "7-BinaryTrees";
+			sourceTree = "<group>";
+		};
+		32C9A638287F421D009EB7CA /* 8-Memoization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "8-Memoization";
+			sourceTree = "<group>";
+		};
+		32C9A639287F4235009EB7CA /* 9-Sorting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "9-Sorting";
+			sourceTree = "<group>";
+		};
+		32C9A63A287F4245009EB7CA /* 10-Graphs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "10-Graphs";
+			sourceTree = "<group>";
+		};
+		32C9A63B287F4250009EB7CA /* 11-CommonlyAsked */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "11-CommonlyAsked";
+			sourceTree = "<group>";
+		};
+		32C9A63C287F425C009EB7CA /* 12-GreatestHits */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "12-GreatestHits";
+			sourceTree = "<group>";
+		};
+		32C9A63D287F426F009EB7CA /* 13-Google */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "13-Google";
+			sourceTree = "<group>";
+		};
+		32C9A63E287F427D009EB7CA /* 14-Facebook */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "14-Facebook";
+			sourceTree = "<group>";
+		};
+		32C9A63F287F428A009EB7CA /* 15-Amazon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "15-Amazon";
+			sourceTree = "<group>";
+		};
+		32C9A642287F4399009EB7CA /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				32C9A63F287F428A009EB7CA /* 15-Amazon */,
+				32C9A63E287F427D009EB7CA /* 14-Facebook */,
+				32C9A63D287F426F009EB7CA /* 13-Google */,
+				32C9A63C287F425C009EB7CA /* 12-GreatestHits */,
+				32C9A63B287F4250009EB7CA /* 11-CommonlyAsked */,
+				32C9A63A287F4245009EB7CA /* 10-Graphs */,
+				32C9A639287F4235009EB7CA /* 9-Sorting */,
+				32C9A638287F421D009EB7CA /* 8-Memoization */,
+				32C9A637287F4214009EB7CA /* 7-BinaryTrees */,
+				32C9A636287F41DE009EB7CA /* 6-HashTables */,
+				32C9A635287F41C5009EB7CA /* 5-Stacks & Queues */,
+				32C9A634287F41AD009EB7CA /* 4-Big0(Reduced) */,
+				32C9A633287F41A1009EB7CA /* 3-LinkedLists */,
+				32C9A632287F4198009EB7CA /* 2-Arrays */,
+				32C9A631287F418C009EB7CA /* 1-BigO */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32C9A619287F40FF009EB7CA /* Algorithms & Data Structures (iOS) */ = {
+		32C9A619287F40FF009EB7CA /* Karate (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32C9A62B287F40FF009EB7CA /* Build configuration list for PBXNativeTarget "Algorithms & Data Structures (iOS)" */;
+			buildConfigurationList = 32C9A62B287F40FF009EB7CA /* Build configuration list for PBXNativeTarget "Karate (iOS)" */;
 			buildPhases = (
 				32C9A616287F40FF009EB7CA /* Sources */,
 				32C9A617287F40FF009EB7CA /* Frameworks */,
@@ -93,14 +251,14 @@
 			);
 			dependencies = (
 			);
-			name = "Algorithms & Data Structures (iOS)";
+			name = "Karate (iOS)";
 			productName = "Algorithms & Data Structures (iOS)";
-			productReference = 32C9A61A287F40FF009EB7CA /* Algorithms & Data Structures.app */;
+			productReference = 32C9A61A287F40FF009EB7CA /* Karate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		32C9A61F287F40FF009EB7CA /* Algorithms & Data Structures (macOS) */ = {
+		32C9A61F287F40FF009EB7CA /* Karate (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32C9A62E287F40FF009EB7CA /* Build configuration list for PBXNativeTarget "Algorithms & Data Structures (macOS)" */;
+			buildConfigurationList = 32C9A62E287F40FF009EB7CA /* Build configuration list for PBXNativeTarget "Karate (macOS)" */;
 			buildPhases = (
 				32C9A61C287F40FF009EB7CA /* Sources */,
 				32C9A61D287F40FF009EB7CA /* Frameworks */,
@@ -110,9 +268,9 @@
 			);
 			dependencies = (
 			);
-			name = "Algorithms & Data Structures (macOS)";
+			name = "Karate (macOS)";
 			productName = "Algorithms & Data Structures (macOS)";
-			productReference = 32C9A620287F40FF009EB7CA /* Algorithms & Data Structures.app */;
+			productReference = 32C9A620287F40FF009EB7CA /* Karate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +291,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 32C9A611287F40FD009EB7CA /* Build configuration list for PBXProject "Algorithms & Data Structures" */;
+			buildConfigurationList = 32C9A611287F40FD009EB7CA /* Build configuration list for PBXProject "Karate" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,8 +304,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32C9A619287F40FF009EB7CA /* Algorithms & Data Structures (iOS) */,
-				32C9A61F287F40FF009EB7CA /* Algorithms & Data Structures (macOS) */,
+				32C9A619287F40FF009EB7CA /* Karate (iOS) */,
+				32C9A61F287F40FF009EB7CA /* Karate (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -176,8 +334,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C9A644287F45EC009EB7CA /* contents.swift in Sources */,
 				32C9A625287F40FF009EB7CA /* ContentView.swift in Sources */,
-				32C9A623287F40FF009EB7CA /* Algorithms___Data_StructuresApp.swift in Sources */,
+				32C9A623287F40FF009EB7CA /* Karate.swift in Sources */,
+				327C9FA4287F900F00C4E45A /* contents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32C9A626287F40FF009EB7CA /* ContentView.swift in Sources */,
-				32C9A624287F40FF009EB7CA /* Algorithms___Data_StructuresApp.swift in Sources */,
+				32C9A624287F40FF009EB7CA /* Karate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,8 +483,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.Algorithms---Data-Structures";
-				PRODUCT_NAME = "Algorithms & Data Structures";
+				PRODUCT_BUNDLE_IDENTIFIER = Karate;
+				PRODUCT_NAME = Karate;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,8 +513,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.Algorithms---Data-Structures";
-				PRODUCT_NAME = "Algorithms & Data Structures";
+				PRODUCT_BUNDLE_IDENTIFIER = Karate;
+				PRODUCT_NAME = Karate;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +544,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Algorithms---Data-Structures";
-				PRODUCT_NAME = "Algorithms & Data Structures";
+				PRODUCT_NAME = Karate;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -412,7 +572,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Algorithms---Data-Structures";
-				PRODUCT_NAME = "Algorithms & Data Structures";
+				PRODUCT_NAME = Karate;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -422,7 +582,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32C9A611287F40FD009EB7CA /* Build configuration list for PBXProject "Algorithms & Data Structures" */ = {
+		32C9A611287F40FD009EB7CA /* Build configuration list for PBXProject "Karate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32C9A629287F40FF009EB7CA /* Debug */,
@@ -431,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32C9A62B287F40FF009EB7CA /* Build configuration list for PBXNativeTarget "Algorithms & Data Structures (iOS)" */ = {
+		32C9A62B287F40FF009EB7CA /* Build configuration list for PBXNativeTarget "Karate (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32C9A62C287F40FF009EB7CA /* Debug */,
@@ -440,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32C9A62E287F40FF009EB7CA /* Build configuration list for PBXNativeTarget "Algorithms & Data Structures (macOS)" */ = {
+		32C9A62E287F40FF009EB7CA /* Build configuration list for PBXNativeTarget "Karate (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32C9A62F287F40FF009EB7CA /* Debug */,

@@ -3,7 +3,7 @@
 import SwiftUI
 
 @main
-struct ___PARENTPACKAGENAME:identifier___App: App {
+struct Karate: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

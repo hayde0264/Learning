@@ -10,26 +10,54 @@
 		327C9FA4287F900F00C4E45A /* contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA3287F900F00C4E45A /* contents.swift */; };
 		327C9FA7287F9E4800C4E45A /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA6287F9E4800C4E45A /* Contents.swift */; };
 		327C9FAA287F9E5600C4E45A /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA9287F9E5600C4E45A /* Contents.swift */; };
+		327C9FAD287F9F0300C4E45A /* 2- Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FAC287F9F0300C4E45A /* 2- Arrays.swift */; };
+		327C9FAF287F9F1600C4E45A /* 3- Linked Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FAE287F9F1600C4E45A /* 3- Linked Lists.swift */; };
+		327C9FB1287F9F3000C4E45A /* 4- BigO (Reduced).swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FB0287F9F3000C4E45A /* 4- BigO (Reduced).swift */; };
+		327C9FB3287F9F5F00C4E45A /* 5- Stacks & Qeues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FB2287F9F5F00C4E45A /* 5- Stacks & Qeues.swift */; };
+		327C9FB5287F9FE500C4E45A /* 6- HashTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FB4287F9FE500C4E45A /* 6- HashTables.swift */; };
+		327C9FB7287FA00400C4E45A /* 7- Binary Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FB6287FA00400C4E45A /* 7- Binary Trees.swift */; };
+		327C9FB9287FA03400C4E45A /* 8- Memoization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FB8287FA03400C4E45A /* 8- Memoization.swift */; };
+		327C9FBB287FA04300C4E45A /* 9- Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FBA287FA04300C4E45A /* 9- Sorting.swift */; };
+		327C9FBE287FA05600C4E45A /* 10- Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FBD287FA05600C4E45A /* 10- Graphs.swift */; };
+		327C9FC0287FA06E00C4E45A /* 11- Commonly Asked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FBF287FA06E00C4E45A /* 11- Commonly Asked.swift */; };
+		327C9FC2287FA07C00C4E45A /* 12- Greatest Hits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FC1287FA07C00C4E45A /* 12- Greatest Hits.swift */; };
+		327C9FC4287FA08900C4E45A /* 13- Google.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FC3287FA08900C4E45A /* 13- Google.swift */; };
+		327C9FC6287FA09900C4E45A /* 14- Facebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FC5287FA09900C4E45A /* 14- Facebook.swift */; };
+		327C9FC8287FA0A600C4E45A /* 15- Amazon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FC7287FA0A600C4E45A /* 15- Amazon.swift */; };
 		32C9A623287F40FF009EB7CA /* Karate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A613287F40FD009EB7CA /* Karate.swift */; };
 		32C9A624287F40FF009EB7CA /* Karate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A613287F40FD009EB7CA /* Karate.swift */; };
 		32C9A625287F40FF009EB7CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A614287F40FD009EB7CA /* ContentView.swift */; };
 		32C9A626287F40FF009EB7CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A614287F40FD009EB7CA /* ContentView.swift */; };
 		32C9A627287F40FF009EB7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C9A615287F40FF009EB7CA /* Assets.xcassets */; };
 		32C9A628287F40FF009EB7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C9A615287F40FF009EB7CA /* Assets.xcassets */; };
-		32C9A644287F45EC009EB7CA /* contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A643287F45EC009EB7CA /* contents.swift */; };
+		32C9A644287F45EC009EB7CA /* 1- BigO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A643287F45EC009EB7CA /* 1- BigO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		327C9FA3287F900F00C4E45A /* contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contents.swift; sourceTree = "<group>"; };
 		327C9FA6287F9E4800C4E45A /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
 		327C9FA9287F9E5600C4E45A /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
+		327C9FAC287F9F0300C4E45A /* 2- Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2- Arrays.swift"; sourceTree = "<group>"; };
+		327C9FAE287F9F1600C4E45A /* 3- Linked Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3- Linked Lists.swift"; sourceTree = "<group>"; };
+		327C9FB0287F9F3000C4E45A /* 4- BigO (Reduced).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4- BigO (Reduced).swift"; sourceTree = "<group>"; };
+		327C9FB2287F9F5F00C4E45A /* 5- Stacks & Qeues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5- Stacks & Qeues.swift"; sourceTree = "<group>"; };
+		327C9FB4287F9FE500C4E45A /* 6- HashTables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "6- HashTables.swift"; sourceTree = "<group>"; };
+		327C9FB6287FA00400C4E45A /* 7- Binary Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7- Binary Trees.swift"; sourceTree = "<group>"; };
+		327C9FB8287FA03400C4E45A /* 8- Memoization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "8- Memoization.swift"; sourceTree = "<group>"; };
+		327C9FBA287FA04300C4E45A /* 9- Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9- Sorting.swift"; sourceTree = "<group>"; };
+		327C9FBD287FA05600C4E45A /* 10- Graphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10- Graphs.swift"; sourceTree = "<group>"; };
+		327C9FBF287FA06E00C4E45A /* 11- Commonly Asked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11- Commonly Asked.swift"; sourceTree = "<group>"; };
+		327C9FC1287FA07C00C4E45A /* 12- Greatest Hits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "12- Greatest Hits.swift"; sourceTree = "<group>"; };
+		327C9FC3287FA08900C4E45A /* 13- Google.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13- Google.swift"; sourceTree = "<group>"; };
+		327C9FC5287FA09900C4E45A /* 14- Facebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14- Facebook.swift"; sourceTree = "<group>"; };
+		327C9FC7287FA0A600C4E45A /* 15- Amazon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15- Amazon.swift"; sourceTree = "<group>"; };
 		32C9A613287F40FD009EB7CA /* Karate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate.swift; sourceTree = "<group>"; };
 		32C9A614287F40FD009EB7CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32C9A615287F40FF009EB7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32C9A61A287F40FF009EB7CA /* Karate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C9A620287F40FF009EB7CA /* Karate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C9A622287F40FF009EB7CA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		32C9A643287F45EC009EB7CA /* contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contents.swift; sourceTree = "<group>"; };
+		32C9A643287F45EC009EB7CA /* 1- BigO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1- BigO.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,130 +150,24 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		32C9A631287F418C009EB7CA /* 1-BigO */ = {
-			isa = PBXGroup;
-			children = (
-				32C9A643287F45EC009EB7CA /* contents.swift */,
-			);
-			path = "1-BigO";
-			sourceTree = "<group>";
-		};
-		32C9A632287F4198009EB7CA /* 2-Arrays */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "2-Arrays";
-			sourceTree = "<group>";
-		};
-		32C9A633287F41A1009EB7CA /* 3-LinkedLists */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "3-LinkedLists";
-			sourceTree = "<group>";
-		};
-		32C9A634287F41AD009EB7CA /* 4-Big0(Reduced) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "4-Big0(Reduced)";
-			sourceTree = "<group>";
-		};
-		32C9A635287F41C5009EB7CA /* 5-Stacks & Queues */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "5-Stacks & Queues";
-			sourceTree = "<group>";
-		};
-		32C9A636287F41DE009EB7CA /* 6-HashTables */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "6-HashTables";
-			sourceTree = "<group>";
-		};
-		32C9A637287F4214009EB7CA /* 7-BinaryTrees */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "7-BinaryTrees";
-			sourceTree = "<group>";
-		};
-		32C9A638287F421D009EB7CA /* 8-Memoization */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "8-Memoization";
-			sourceTree = "<group>";
-		};
-		32C9A639287F4235009EB7CA /* 9-Sorting */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "9-Sorting";
-			sourceTree = "<group>";
-		};
-		32C9A63A287F4245009EB7CA /* 10-Graphs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "10-Graphs";
-			sourceTree = "<group>";
-		};
-		32C9A63B287F4250009EB7CA /* 11-CommonlyAsked */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "11-CommonlyAsked";
-			sourceTree = "<group>";
-		};
-		32C9A63C287F425C009EB7CA /* 12-GreatestHits */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "12-GreatestHits";
-			sourceTree = "<group>";
-		};
-		32C9A63D287F426F009EB7CA /* 13-Google */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "13-Google";
-			sourceTree = "<group>";
-		};
-		32C9A63E287F427D009EB7CA /* 14-Facebook */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "14-Facebook";
-			sourceTree = "<group>";
-		};
-		32C9A63F287F428A009EB7CA /* 15-Amazon */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "15-Amazon";
-			sourceTree = "<group>";
-		};
 		32C9A642287F4399009EB7CA /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				32C9A63F287F428A009EB7CA /* 15-Amazon */,
-				32C9A63E287F427D009EB7CA /* 14-Facebook */,
-				32C9A63D287F426F009EB7CA /* 13-Google */,
-				32C9A63C287F425C009EB7CA /* 12-GreatestHits */,
-				32C9A63B287F4250009EB7CA /* 11-CommonlyAsked */,
-				32C9A63A287F4245009EB7CA /* 10-Graphs */,
-				32C9A639287F4235009EB7CA /* 9-Sorting */,
-				32C9A638287F421D009EB7CA /* 8-Memoization */,
-				32C9A637287F4214009EB7CA /* 7-BinaryTrees */,
-				32C9A636287F41DE009EB7CA /* 6-HashTables */,
-				32C9A635287F41C5009EB7CA /* 5-Stacks & Queues */,
-				32C9A634287F41AD009EB7CA /* 4-Big0(Reduced) */,
-				32C9A633287F41A1009EB7CA /* 3-LinkedLists */,
-				32C9A632287F4198009EB7CA /* 2-Arrays */,
-				32C9A631287F418C009EB7CA /* 1-BigO */,
+				327C9FC7287FA0A600C4E45A /* 15- Amazon.swift */,
+				327C9FC5287FA09900C4E45A /* 14- Facebook.swift */,
+				327C9FC3287FA08900C4E45A /* 13- Google.swift */,
+				327C9FC1287FA07C00C4E45A /* 12- Greatest Hits.swift */,
+				327C9FBF287FA06E00C4E45A /* 11- Commonly Asked.swift */,
+				327C9FBD287FA05600C4E45A /* 10- Graphs.swift */,
+				327C9FBA287FA04300C4E45A /* 9- Sorting.swift */,
+				327C9FB8287FA03400C4E45A /* 8- Memoization.swift */,
+				327C9FB6287FA00400C4E45A /* 7- Binary Trees.swift */,
+				327C9FB4287F9FE500C4E45A /* 6- HashTables.swift */,
+				327C9FB2287F9F5F00C4E45A /* 5- Stacks & Qeues.swift */,
+				327C9FB0287F9F3000C4E45A /* 4- BigO (Reduced).swift */,
+				327C9FAE287F9F1600C4E45A /* 3- Linked Lists.swift */,
+				327C9FAC287F9F0300C4E45A /* 2- Arrays.swift */,
+				32C9A643287F45EC009EB7CA /* 1- BigO.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -348,12 +270,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32C9A644287F45EC009EB7CA /* contents.swift in Sources */,
+				327C9FB7287FA00400C4E45A /* 7- Binary Trees.swift in Sources */,
+				32C9A644287F45EC009EB7CA /* 1- BigO.swift in Sources */,
 				327C9FAA287F9E5600C4E45A /* Contents.swift in Sources */,
+				327C9FB9287FA03400C4E45A /* 8- Memoization.swift in Sources */,
 				327C9FA7287F9E4800C4E45A /* Contents.swift in Sources */,
+				327C9FBE287FA05600C4E45A /* 10- Graphs.swift in Sources */,
 				32C9A625287F40FF009EB7CA /* ContentView.swift in Sources */,
+				327C9FB1287F9F3000C4E45A /* 4- BigO (Reduced).swift in Sources */,
+				327C9FC8287FA0A600C4E45A /* 15- Amazon.swift in Sources */,
+				327C9FC0287FA06E00C4E45A /* 11- Commonly Asked.swift in Sources */,
+				327C9FAF287F9F1600C4E45A /* 3- Linked Lists.swift in Sources */,
+				327C9FB5287F9FE500C4E45A /* 6- HashTables.swift in Sources */,
+				327C9FBB287FA04300C4E45A /* 9- Sorting.swift in Sources */,
+				327C9FB3287F9F5F00C4E45A /* 5- Stacks & Qeues.swift in Sources */,
+				327C9FC6287FA09900C4E45A /* 14- Facebook.swift in Sources */,
 				32C9A623287F40FF009EB7CA /* Karate.swift in Sources */,
+				327C9FC2287FA07C00C4E45A /* 12- Greatest Hits.swift in Sources */,
+				327C9FAD287F9F0300C4E45A /* 2- Arrays.swift in Sources */,
 				327C9FA4287F900F00C4E45A /* contents.swift in Sources */,
+				327C9FC4287FA08900C4E45A /* 13- Google.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

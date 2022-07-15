@@ -33,4 +33,5 @@ var array = ["a", "b", "c"]
 // array.append("e")
 
 
-
+// given A = [3, 8, 9, 7, 6]
+//       K = [3]

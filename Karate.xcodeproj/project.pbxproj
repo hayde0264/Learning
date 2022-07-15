@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		327C9FA4287F900F00C4E45A /* contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA3287F900F00C4E45A /* contents.swift */; };
-		327C9FA7287F9E4800C4E45A /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA6287F9E4800C4E45A /* Contents.swift */; };
-		327C9FAA287F9E5600C4E45A /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA9287F9E5600C4E45A /* Contents.swift */; };
+		327C9FA4287F900F00C4E45A /* CombineInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA3287F900F00C4E45A /* CombineInfo.swift */; };
+		327C9FA7287F9E4800C4E45A /* PropertyWrapperInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA6287F9E4800C4E45A /* PropertyWrapperInfo.swift */; };
+		327C9FAA287F9E5600C4E45A /* CoreDataInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA9287F9E5600C4E45A /* CoreDataInfo.swift */; };
 		327C9FAD287F9F0300C4E45A /* 2- Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FAC287F9F0300C4E45A /* 2- Arrays.swift */; };
 		327C9FAF287F9F1600C4E45A /* 3- Linked Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FAE287F9F1600C4E45A /* 3- Linked Lists.swift */; };
 		327C9FB1287F9F3000C4E45A /* 4- BigO (Reduced).swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FB0287F9F3000C4E45A /* 4- BigO (Reduced).swift */; };
@@ -31,12 +31,17 @@
 		32C9A627287F40FF009EB7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C9A615287F40FF009EB7CA /* Assets.xcassets */; };
 		32C9A628287F40FF009EB7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C9A615287F40FF009EB7CA /* Assets.xcassets */; };
 		32C9A644287F45EC009EB7CA /* 1- BigO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A643287F45EC009EB7CA /* 1- BigO.swift */; };
+		32DAA4882880D90600FA2111 /* Responsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAA4872880D90600FA2111 /* Responsibility.swift */; };
+		32DAA48A2880DC3900FA2111 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAA4892880DC3900FA2111 /* Command.swift */; };
+		32DAA48C2880E40300FA2111 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAA48B2880E40300FA2111 /* Iterator.swift */; };
+		32EF98982880AE6B000436CA /* Sample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32EF98962880AE6B000436CA /* Sample.xcdatamodeld */; };
+		32EF989A2880B136000436CA /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF98992880B136000436CA /* SampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		327C9FA3287F900F00C4E45A /* contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contents.swift; sourceTree = "<group>"; };
-		327C9FA6287F9E4800C4E45A /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
-		327C9FA9287F9E5600C4E45A /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
+		327C9FA3287F900F00C4E45A /* CombineInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineInfo.swift; sourceTree = "<group>"; };
+		327C9FA6287F9E4800C4E45A /* PropertyWrapperInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperInfo.swift; sourceTree = "<group>"; };
+		327C9FA9287F9E5600C4E45A /* CoreDataInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataInfo.swift; sourceTree = "<group>"; };
 		327C9FAC287F9F0300C4E45A /* 2- Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2- Arrays.swift"; sourceTree = "<group>"; };
 		327C9FAE287F9F1600C4E45A /* 3- Linked Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3- Linked Lists.swift"; sourceTree = "<group>"; };
 		327C9FB0287F9F3000C4E45A /* 4- BigO (Reduced).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4- BigO (Reduced).swift"; sourceTree = "<group>"; };
@@ -58,6 +63,11 @@
 		32C9A620287F40FF009EB7CA /* Karate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C9A622287F40FF009EB7CA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		32C9A643287F45EC009EB7CA /* 1- BigO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1- BigO.swift"; sourceTree = "<group>"; };
+		32DAA4872880D90600FA2111 /* Responsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responsibility.swift; sourceTree = "<group>"; };
+		32DAA4892880DC3900FA2111 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		32DAA48B2880E40300FA2111 /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		32EF98972880AE6B000436CA /* Sample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sample.xcdatamodel; sourceTree = "<group>"; };
+		32EF98992880B136000436CA /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +91,7 @@
 		327C9FA0287F8FD500C4E45A /* @ */ = {
 			isa = PBXGroup;
 			children = (
-				327C9FA6287F9E4800C4E45A /* Contents.swift */,
+				327C9FA6287F9E4800C4E45A /* PropertyWrapperInfo.swift */,
 			);
 			path = "@";
 			sourceTree = "<group>";
@@ -89,7 +99,9 @@
 		327C9FA1287F8FDA00C4E45A /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
-				327C9FA9287F9E5600C4E45A /* Contents.swift */,
+				327C9FA9287F9E5600C4E45A /* CoreDataInfo.swift */,
+				32EF98962880AE6B000436CA /* Sample.xcdatamodeld */,
+				32EF98992880B136000436CA /* SampleView.swift */,
 			);
 			path = "Core Data";
 			sourceTree = "<group>";
@@ -97,7 +109,7 @@
 		327C9FA2287F8FFA00C4E45A /* Combine */ = {
 			isa = PBXGroup;
 			children = (
-				327C9FA3287F900F00C4E45A /* contents.swift */,
+				327C9FA3287F900F00C4E45A /* CombineInfo.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -105,10 +117,11 @@
 		327C9FA5287F9D9500C4E45A /* Karate */ = {
 			isa = PBXGroup;
 			children = (
+				32DAA4832880D8A800FA2111 /* Design Patterns */,
 				327C9FA1287F8FDA00C4E45A /* Core Data */,
-				327C9FA0287F8FD500C4E45A /* @ */,
-				32C9A642287F4399009EB7CA /* Algorithms */,
 				327C9FA2287F8FFA00C4E45A /* Combine */,
+				32C9A642287F4399009EB7CA /* Algorithms */,
+				327C9FA0287F8FD500C4E45A /* @ */,
 			);
 			path = Karate;
 			sourceTree = "<group>";
@@ -170,6 +183,40 @@
 				32C9A643287F45EC009EB7CA /* 1- BigO.swift */,
 			);
 			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		32DAA4832880D8A800FA2111 /* Design Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				32DAA4862880D8EF00FA2111 /* Structural */,
+				32DAA4852880D8E900FA2111 /* Creational */,
+				32DAA4842880D8D800FA2111 /* Behavioral */,
+			);
+			path = "Design Patterns";
+			sourceTree = "<group>";
+		};
+		32DAA4842880D8D800FA2111 /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+				32DAA4872880D90600FA2111 /* Responsibility.swift */,
+				32DAA4892880DC3900FA2111 /* Command.swift */,
+				32DAA48B2880E40300FA2111 /* Iterator.swift */,
+			);
+			path = Behavioral;
+			sourceTree = "<group>";
+		};
+		32DAA4852880D8E900FA2111 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		32DAA4862880D8EF00FA2111 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Structural;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,13 +317,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32EF98982880AE6B000436CA /* Sample.xcdatamodeld in Sources */,
 				327C9FB7287FA00400C4E45A /* 7- Binary Trees.swift in Sources */,
 				32C9A644287F45EC009EB7CA /* 1- BigO.swift in Sources */,
-				327C9FAA287F9E5600C4E45A /* Contents.swift in Sources */,
+				327C9FAA287F9E5600C4E45A /* CoreDataInfo.swift in Sources */,
+				32EF989A2880B136000436CA /* SampleView.swift in Sources */,
 				327C9FB9287FA03400C4E45A /* 8- Memoization.swift in Sources */,
-				327C9FA7287F9E4800C4E45A /* Contents.swift in Sources */,
+				327C9FA7287F9E4800C4E45A /* PropertyWrapperInfo.swift in Sources */,
 				327C9FBE287FA05600C4E45A /* 10- Graphs.swift in Sources */,
 				32C9A625287F40FF009EB7CA /* ContentView.swift in Sources */,
+				32DAA4882880D90600FA2111 /* Responsibility.swift in Sources */,
 				327C9FB1287F9F3000C4E45A /* 4- BigO (Reduced).swift in Sources */,
 				327C9FC8287FA0A600C4E45A /* 15- Amazon.swift in Sources */,
 				327C9FC0287FA06E00C4E45A /* 11- Commonly Asked.swift in Sources */,
@@ -285,11 +335,13 @@
 				327C9FBB287FA04300C4E45A /* 9- Sorting.swift in Sources */,
 				327C9FB3287F9F5F00C4E45A /* 5- Stacks & Qeues.swift in Sources */,
 				327C9FC6287FA09900C4E45A /* 14- Facebook.swift in Sources */,
+				32DAA48C2880E40300FA2111 /* Iterator.swift in Sources */,
 				32C9A623287F40FF009EB7CA /* Karate.swift in Sources */,
 				327C9FC2287FA07C00C4E45A /* 12- Greatest Hits.swift in Sources */,
 				327C9FAD287F9F0300C4E45A /* 2- Arrays.swift in Sources */,
-				327C9FA4287F900F00C4E45A /* contents.swift in Sources */,
+				327C9FA4287F900F00C4E45A /* CombineInfo.swift in Sources */,
 				327C9FC4287FA08900C4E45A /* 13- Google.swift in Sources */,
+				32DAA48A2880DC3900FA2111 /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,6 +614,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		32EF98962880AE6B000436CA /* Sample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				32EF98972880AE6B000436CA /* Sample.xcdatamodel */,
+			);
+			currentVersion = 32EF98972880AE6B000436CA /* Sample.xcdatamodel */;
+			path = Sample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 32C9A60E287F40FD009EB7CA /* Project object */;
 }

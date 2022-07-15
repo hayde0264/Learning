@@ -62,7 +62,7 @@ struct Stack<T> {
        removed and returned from the top of the
        stack */
     mutating func pop(_ element: T) {
-        //array.popLast()
+        array.popLast()
     }
     
     

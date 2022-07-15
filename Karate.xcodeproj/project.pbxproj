@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32159B0628820AA8002F8D0F /* Singleton (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0528820AA8002F8D0F /* Singleton (Creational).swift */; };
+		32159B0828820D4F002F8D0F /* Prototype (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0728820D4F002F8D0F /* Prototype (Creational).swift */; };
+		32159B0A28821210002F8D0F /* Builder (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0928821210002F8D0F /* Builder (Creational).swift */; };
+		32159B0C288213FA002F8D0F /* Factory (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0B288213FA002F8D0F /* Factory (Creational).swift */; };
 		327C9FA4287F900F00C4E45A /* CombineInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA3287F900F00C4E45A /* CombineInfo.swift */; };
 		327C9FA7287F9E4800C4E45A /* PropertyWrapperInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA6287F9E4800C4E45A /* PropertyWrapperInfo.swift */; };
 		327C9FAA287F9E5600C4E45A /* CoreDataInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA9287F9E5600C4E45A /* CoreDataInfo.swift */; };
@@ -40,6 +44,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32159B0528820AA8002F8D0F /* Singleton (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singleton (Creational).swift"; sourceTree = "<group>"; };
+		32159B0728820D4F002F8D0F /* Prototype (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prototype (Creational).swift"; sourceTree = "<group>"; };
+		32159B0928821210002F8D0F /* Builder (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Builder (Creational).swift"; sourceTree = "<group>"; };
+		32159B0B288213FA002F8D0F /* Factory (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Factory (Creational).swift"; sourceTree = "<group>"; };
 		327C9FA3287F900F00C4E45A /* CombineInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineInfo.swift; sourceTree = "<group>"; };
 		327C9FA6287F9E4800C4E45A /* PropertyWrapperInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperInfo.swift; sourceTree = "<group>"; };
 		327C9FA9287F9E5600C4E45A /* CoreDataInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataInfo.swift; sourceTree = "<group>"; };
@@ -194,6 +202,10 @@
 				32DAA48B2880E40300FA2111 /* Iterator (Creational).swift */,
 				32DAA4892880DC3900FA2111 /* Command (Creational).swift */,
 				32DAA4872880D90600FA2111 /* Response (Creational).swift */,
+				32159B0528820AA8002F8D0F /* Singleton (Creational).swift */,
+				32159B0728820D4F002F8D0F /* Prototype (Creational).swift */,
+				32159B0928821210002F8D0F /* Builder (Creational).swift */,
+				32159B0B288213FA002F8D0F /* Factory (Creational).swift */,
 			);
 			path = "Design Patterns";
 			sourceTree = "<group>";
@@ -300,6 +312,7 @@
 				32EF98982880AE6B000436CA /* Sample.xcdatamodeld in Sources */,
 				327C9FB7287FA00400C4E45A /* 7- Binary Trees.swift in Sources */,
 				32C9A644287F45EC009EB7CA /* 1- BigO.swift in Sources */,
+				32159B0628820AA8002F8D0F /* Singleton (Creational).swift in Sources */,
 				327C9FAA287F9E5600C4E45A /* CoreDataInfo.swift in Sources */,
 				32EF989A2880B136000436CA /* SampleView.swift in Sources */,
 				327C9FB9287FA03400C4E45A /* 8- Memoization.swift in Sources */,
@@ -307,8 +320,11 @@
 				327C9FBE287FA05600C4E45A /* 10- Graphs.swift in Sources */,
 				32C9A625287F40FF009EB7CA /* ContentView.swift in Sources */,
 				32DAA4882880D90600FA2111 /* Response (Creational).swift in Sources */,
+				32159B0828820D4F002F8D0F /* Prototype (Creational).swift in Sources */,
+				32159B0A28821210002F8D0F /* Builder (Creational).swift in Sources */,
 				327C9FB1287F9F3000C4E45A /* 4- BigO (Reduced).swift in Sources */,
 				327C9FC8287FA0A600C4E45A /* 15- Amazon.swift in Sources */,
+				32159B0C288213FA002F8D0F /* Factory (Creational).swift in Sources */,
 				327C9FC0287FA06E00C4E45A /* 11- Commonly Asked.swift in Sources */,
 				327C9FAF287F9F1600C4E45A /* 3- Linked Lists.swift in Sources */,
 				327C9FB5287F9FE500C4E45A /* 6- HashTables.swift in Sources */,

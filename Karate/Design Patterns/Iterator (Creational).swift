@@ -7,88 +7,30 @@
 
 import Foundation
 
-//MARK: Class
-class Driver {
-    
-    let isGoodDriver: Bool
-    let name: String
-    
-    init(isGood: Bool, name: String) {
-        self.isGoodDriver = isGood
-        self.name = name
-    }
+struct Chocolate {
+    let brand: String
 }
 
-
-
-//MARK: Class
-class Car {
-    var goodDriverIterator: GoodDriverIterator {
-        return GoodDriverIterator(drivers: drivers)
-    }
-    
-    private var drivers = [
-    Driver(isGood: true, name: "Ken"),
-    Driver(isGood: false, name: "Rick"),
-    Driver(isGood: true, name: "Kayla"),
-    Driver(isGood: false, name: "Ben")
-    ]
+struct ChocolateBrands {
+    let brands: [Chocolate]
 }
 
-
-//MARK: Extension & Sequence
-extension Car: Sequence {
-    func makeIterator() -> some IteratorProtocol {
-        return GoodDriverIterator(drivers: drivers)
-    }
-}
-
-
-//MARK: Class & Protocol
-class GoodDriverIterator: IteratorProtocol {
-    
-    private let drivers: [Driver]
+struct ChocolateBrandIterator: IteratorProtocol {
     private var current = 0
+    private let chocolateBrands: [ChocolateBrands]
     
-    init(drivers: [Driver]) {
-        self.drivers = drivers.filter { $0.isGoodDriver }
+    init(chocolateBrands: [ChocolateBrands]) {
+        self.chocolateBrands = chocolateBrands
     }
     
-    func next() -> Driver? {
+    mutating func next() -> ChocolateBrands? {
         defer { current += 1 }
-        return drivers.count > current ? drivers[current] : nil
-    }
-    
-    func allDrivers() -> [Driver] {
-        return drivers
+        return chocolateBrands.count > current ? chocolateBrands[current] : nil
     }
 }
 
-
-//MARK: Class & Protocol
-class BadDriverIterator: IteratorProtocol {
-    
-    private let drivers: [Driver]
-    private var current = 0
-    
-    init(drivers: [Driver]) {
-        self.drivers = drivers.filter { !$0.isGoodDriver }
-    }
-    
-    func next() -> Driver? {
-        defer { current += 1 }
-        return drivers.count > current ? drivers[current] : nil
-    }
-    
-    func allDrivers() -> [Driver] {
-        return drivers
+extension ChocolateBrandIterator: Sequence {
+    func makeIterator() -> ChocolateBrandIterator {
+        return ChocolateBrandIterator(chocolateBrands: chocolateBrands)
     }
 }
-
-
-
-//MARK: Implementation
-/* let car = Car()
-   let goodDriverIterator = car.goodDriverIterator.next()
-   let goodDriverBySequence = car.makeIterator()
- */

@@ -37,37 +37,3 @@ import Foundation
                                                                                  ============================
                                                                                 */
 
-
-struct Stack<T> {
-    // Data Structure for holding values
-    private var array = [T]()
-    
-    // Verifies if the stack is empty
-    var isEmpty: Bool {
-        array.isEmpty
-    }
-    
-    // Returns the number of items in a stack
-    var count: Int {
-        array.count
-    }
-    
-    /* The parameter here(_ element: T) will be
-       pushed onto the top of the stack */
-    mutating func push(_ element: T) {
-        array.append(element)
-    }
-    
-    /* The parameter here(_ element: T) will be
-       removed and returned from the top of the
-       stack */
-    mutating func pop(_ element: T) {
-        array.popLast()
-    }
-    
-    
-    // Returns the item at the top of the stack
-    var top: T? {
-        array.last
-    }
-}

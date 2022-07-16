@@ -24,3 +24,12 @@ import Foundation
                                                                                  type uses many pre-defined faults
                                                                                  that don't change often
                                                            */
+protocol Growable {
+    var age: Int { get }
+}
+
+class Hobbit: Growable {
+    var age = 10
+}
+
+

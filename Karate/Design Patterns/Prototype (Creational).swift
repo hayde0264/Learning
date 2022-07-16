@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
                                                         //MARK: Background
                                                         /* The prototype patterns should be used when the construction
                                                            of new instances is expensive or inefficient. The protoype
@@ -32,3 +33,21 @@ import Foundation
                                                                                  should be implemented
                                                          
                                                          */
+class MoonWorker {
+    var name: String
+    var health: Int = 100
+    
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+    
+    func clone() -> MoonWorker {
+        MoonWorker(name: name)
+    }
+    
+}
+
+
+

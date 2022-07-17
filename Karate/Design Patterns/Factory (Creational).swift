@@ -58,10 +58,8 @@ enum Country {
     case Spain
     case uk
     case greece
-}
 
-//MARK: Enumeration
-enum CurrencyFactory {
+    enum CurrencyFactory {
     static func currency(country: Country) -> CurrencyDescription? {
         switch country {
         case .UnitedStates:
@@ -72,8 +70,10 @@ enum CurrencyFactory {
             return Euro()
         case .greece:
             return Euro()
+            }
         }
     }
 }
+
 
 

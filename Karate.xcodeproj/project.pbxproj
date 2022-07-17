@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3208886E288357E3008E8D99 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208886D288357E3008E8D99 /* ListRow.swift */; };
+		32088870288360FD008E8D99 /* TextCleanUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208886F288360FD008E8D99 /* TextCleanUP.swift */; };
+		32088872288366AC008E8D99 /* @escaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32088871288366AC008E8D99 /* @escaping.swift */; };
+		32088875288369CA008E8D99 /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32088874288369CA008E8D99 /* 1.swift */; };
 		32159B0628820AA8002F8D0F /* Singleton (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0528820AA8002F8D0F /* Singleton (Creational).swift */; };
 		32159B0828820D4F002F8D0F /* Prototype (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0728820D4F002F8D0F /* Prototype (Creational).swift */; };
 		32159B0A28821210002F8D0F /* Builder (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0928821210002F8D0F /* Builder (Creational).swift */; };
@@ -49,6 +53,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3208886D288357E3008E8D99 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		3208886F288360FD008E8D99 /* TextCleanUP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCleanUP.swift; sourceTree = "<group>"; };
+		32088871288366AC008E8D99 /* @escaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@escaping.swift"; sourceTree = "<group>"; };
+		32088874288369CA008E8D99 /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
 		32159B0528820AA8002F8D0F /* Singleton (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singleton (Creational).swift"; sourceTree = "<group>"; };
 		32159B0728820D4F002F8D0F /* Prototype (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prototype (Creational).swift"; sourceTree = "<group>"; };
 		32159B0928821210002F8D0F /* Builder (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Builder (Creational).swift"; sourceTree = "<group>"; };
@@ -108,10 +116,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3208886C288357B2008E8D99 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				3208886D288357E3008E8D99 /* ListRow.swift */,
+				3208886F288360FD008E8D99 /* TextCleanUP.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		32088873288369BD008E8D99 /* POP */ = {
+			isa = PBXGroup;
+			children = (
+				32088874288369CA008E8D99 /* 1.swift */,
+			);
+			path = POP;
+			sourceTree = "<group>";
+		};
 		327C9FA0287F8FD500C4E45A /* @ */ = {
 			isa = PBXGroup;
 			children = (
 				327C9FA6287F9E4800C4E45A /* PropertyWrapperInfo.swift */,
+				32088871288366AC008E8D99 /* @escaping.swift */,
 			);
 			path = "@";
 			sourceTree = "<group>";
@@ -137,6 +163,8 @@
 		327C9FA5287F9D9500C4E45A /* Karate */ = {
 			isa = PBXGroup;
 			children = (
+				32088873288369BD008E8D99 /* POP */,
+				3208886C288357B2008E8D99 /* SwiftUI */,
 				32DAA4832880D8A800FA2111 /* Design Patterns */,
 				327C9FA1287F8FDA00C4E45A /* Core Data */,
 				327C9FA2287F8FFA00C4E45A /* Combine */,
@@ -341,8 +369,10 @@
 				32159B0A28821210002F8D0F /* Builder (Creational).swift in Sources */,
 				327C9FB1287F9F3000C4E45A /* 4- BigO (Reduced).swift in Sources */,
 				327C9FC8287FA0A600C4E45A /* 15- Amazon.swift in Sources */,
+				32088875288369CA008E8D99 /* 1.swift in Sources */,
 				32159B0C288213FA002F8D0F /* Factory (Creational).swift in Sources */,
 				327C9FC0287FA06E00C4E45A /* 11- Commonly Asked.swift in Sources */,
+				32088870288360FD008E8D99 /* TextCleanUP.swift in Sources */,
 				3231A11B2882256800943A7A /* Adapter (Structural).swift in Sources */,
 				327C9FAF287F9F1600C4E45A /* 3- Linked Lists.swift in Sources */,
 				327C9FB5287F9FE500C4E45A /* 6- HashTables.swift in Sources */,
@@ -350,8 +380,10 @@
 				327C9FB3287F9F5F00C4E45A /* 5- Stacks & Qeues.swift in Sources */,
 				327C9FC6287FA09900C4E45A /* 14- Facebook.swift in Sources */,
 				3231A12128824BEF00943A7A /* 20- GeneralTree.swift in Sources */,
+				32088872288366AC008E8D99 /* @escaping.swift in Sources */,
 				32DAA48C2880E40300FA2111 /* Iterator (Creational).swift in Sources */,
 				32C9A623287F40FF009EB7CA /* Karate.swift in Sources */,
+				3208886E288357E3008E8D99 /* ListRow.swift in Sources */,
 				327C9FC2287FA07C00C4E45A /* 12- Greatest Hits.swift in Sources */,
 				327C9FAD287F9F0300C4E45A /* 2- Arrays.swift in Sources */,
 				327C9FA4287F900F00C4E45A /* CombineGeneral.swift in Sources */,

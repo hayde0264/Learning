@@ -21,6 +21,8 @@
 		3231A12128824BEF00943A7A /* 20- GeneralTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231A12028824BEF00943A7A /* 20- GeneralTree.swift */; };
 		3231A12728825C6900943A7A /* Bridge (Structural).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231A12628825C6900943A7A /* Bridge (Structural).swift */; };
 		3231A12A28825CC700943A7A /* Composite (Structural).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231A12928825CC700943A7A /* Composite (Structural).swift */; };
+		325216B02884BE8B0023B7BA /* 1- Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325216AF2884BE8B0023B7BA /* 1- Functions.swift */; };
+		325216B32884D1760023B7BA /* SingleResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325216B22884D1760023B7BA /* SingleResponsibility.swift */; };
 		327C9FA4287F900F00C4E45A /* CombineGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA3287F900F00C4E45A /* CombineGeneral.swift */; };
 		327C9FA7287F9E4800C4E45A /* PropertyWrapperInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA6287F9E4800C4E45A /* PropertyWrapperInfo.swift */; };
 		327C9FAA287F9E5600C4E45A /* CoreDataInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA9287F9E5600C4E45A /* CoreDataInfo.swift */; };
@@ -67,6 +69,8 @@
 		3231A12028824BEF00943A7A /* 20- GeneralTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20- GeneralTree.swift"; sourceTree = "<group>"; };
 		3231A12628825C6900943A7A /* Bridge (Structural).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bridge (Structural).swift"; sourceTree = "<group>"; };
 		3231A12928825CC700943A7A /* Composite (Structural).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Composite (Structural).swift"; sourceTree = "<group>"; };
+		325216AF2884BE8B0023B7BA /* 1- Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1- Functions.swift"; sourceTree = "<group>"; };
+		325216B22884D1760023B7BA /* SingleResponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResponsibility.swift; sourceTree = "<group>"; };
 		327C9FA3287F900F00C4E45A /* CombineGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineGeneral.swift; sourceTree = "<group>"; };
 		327C9FA6287F9E4800C4E45A /* PropertyWrapperInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperInfo.swift; sourceTree = "<group>"; };
 		327C9FA9287F9E5600C4E45A /* CoreDataInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataInfo.swift; sourceTree = "<group>"; };
@@ -133,6 +137,22 @@
 			path = POP;
 			sourceTree = "<group>";
 		};
+		325216AE2884BE5F0023B7BA /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				325216AF2884BE8B0023B7BA /* 1- Functions.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		325216B12884D1600023B7BA /* S.O.L.I.D. */ = {
+			isa = PBXGroup;
+			children = (
+				325216B22884D1760023B7BA /* SingleResponsibility.swift */,
+			);
+			path = S.O.L.I.D.;
+			sourceTree = "<group>";
+		};
 		327C9FA0287F8FD500C4E45A /* @ */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,8 +183,10 @@
 		327C9FA5287F9D9500C4E45A /* Karate */ = {
 			isa = PBXGroup;
 			children = (
-				32088873288369BD008E8D99 /* POP */,
+				325216B12884D1600023B7BA /* S.O.L.I.D. */,
 				3208886C288357B2008E8D99 /* SwiftUI */,
+				32088873288369BD008E8D99 /* POP */,
+				325216AE2884BE5F0023B7BA /* Functions */,
 				32DAA4832880D8A800FA2111 /* Design Patterns */,
 				327C9FA1287F8FDA00C4E45A /* Core Data */,
 				327C9FA2287F8FFA00C4E45A /* Combine */,
@@ -367,6 +389,7 @@
 				32DAA4882880D90600FA2111 /* Response (Creational).swift in Sources */,
 				32159B0828820D4F002F8D0F /* Prototype (Creational).swift in Sources */,
 				32159B0A28821210002F8D0F /* Builder (Creational).swift in Sources */,
+				325216B32884D1760023B7BA /* SingleResponsibility.swift in Sources */,
 				327C9FB1287F9F3000C4E45A /* 4- BigO (Reduced).swift in Sources */,
 				327C9FC8287FA0A600C4E45A /* 15- Amazon.swift in Sources */,
 				32088875288369CA008E8D99 /* 1.swift in Sources */,
@@ -379,6 +402,7 @@
 				327C9FBB287FA04300C4E45A /* 9- Sorting.swift in Sources */,
 				327C9FB3287F9F5F00C4E45A /* 5- Stacks & Qeues.swift in Sources */,
 				327C9FC6287FA09900C4E45A /* 14- Facebook.swift in Sources */,
+				325216B02884BE8B0023B7BA /* 1- Functions.swift in Sources */,
 				3231A12128824BEF00943A7A /* 20- GeneralTree.swift in Sources */,
 				32088872288366AC008E8D99 /* @escaping.swift in Sources */,
 				32DAA48C2880E40300FA2111 /* Iterator (Creational).swift in Sources */,

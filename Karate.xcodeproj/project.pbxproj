@@ -15,6 +15,8 @@
 		32159B0828820D4F002F8D0F /* Prototype (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0728820D4F002F8D0F /* Prototype (Creational).swift */; };
 		32159B0A28821210002F8D0F /* Builder (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0928821210002F8D0F /* Builder (Creational).swift */; };
 		32159B0C288213FA002F8D0F /* Factory (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0B288213FA002F8D0F /* Factory (Creational).swift */; };
+		321E3299288648D4008AECC6 /* OpenClosed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E3298288648D4008AECC6 /* OpenClosed.swift */; };
+		321E329C28864A7F008AECC6 /* enums .swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E329B28864A7F008AECC6 /* enums .swift */; };
 		3231A11B2882256800943A7A /* Adapter (Structural).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231A11A2882256800943A7A /* Adapter (Structural).swift */; };
 		3231A11D288248E100943A7A /* 18- BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231A11C288248E100943A7A /* 18- BinarySearch.swift */; };
 		3231A11F28824A4F00943A7A /* 19- B-Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231A11E28824A4F00943A7A /* 19- B-Tree.swift */; };
@@ -25,7 +27,6 @@
 		325216B32884D1760023B7BA /* SingleResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325216B22884D1760023B7BA /* SingleResponsibility.swift */; };
 		327C9FA4287F900F00C4E45A /* CombineGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA3287F900F00C4E45A /* CombineGeneral.swift */; };
 		327C9FA7287F9E4800C4E45A /* PropertyWrapperInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA6287F9E4800C4E45A /* PropertyWrapperInfo.swift */; };
-		327C9FAA287F9E5600C4E45A /* CoreDataInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA9287F9E5600C4E45A /* CoreDataInfo.swift */; };
 		327C9FAD287F9F0300C4E45A /* 2- Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FAC287F9F0300C4E45A /* 2- Arrays.swift */; };
 		327C9FAF287F9F1600C4E45A /* 3- Linked Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FAE287F9F1600C4E45A /* 3- Linked Lists.swift */; };
 		327C9FB1287F9F3000C4E45A /* 4- BigO (Reduced).swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FB0287F9F3000C4E45A /* 4- BigO (Reduced).swift */; };
@@ -40,6 +41,8 @@
 		327C9FC6287FA09900C4E45A /* 14- Facebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FC5287FA09900C4E45A /* 14- Facebook.swift */; };
 		327C9FC8287FA0A600C4E45A /* 15- Amazon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FC7287FA0A600C4E45A /* 15- Amazon.swift */; };
 		329097DD288109E20090BA99 /* 16- Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329097DC288109E20090BA99 /* 16- Stack.swift */; };
+		32AB51AB2886230600C445BC /* Publishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB51AA2886230600C445BC /* Publishers.swift */; };
+		32AB51AF288624C800C445BC /* UserInputWithDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB51AE288624C800C445BC /* UserInputWithDefaults.swift */; };
 		32C9A623287F40FF009EB7CA /* Karate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A613287F40FD009EB7CA /* Karate.swift */; };
 		32C9A624287F40FF009EB7CA /* Karate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A613287F40FD009EB7CA /* Karate.swift */; };
 		32C9A625287F40FF009EB7CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A614287F40FD009EB7CA /* ContentView.swift */; };
@@ -50,8 +53,6 @@
 		32DAA4882880D90600FA2111 /* Response (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAA4872880D90600FA2111 /* Response (Creational).swift */; };
 		32DAA48A2880DC3900FA2111 /* Command (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAA4892880DC3900FA2111 /* Command (Creational).swift */; };
 		32DAA48C2880E40300FA2111 /* Iterator (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAA48B2880E40300FA2111 /* Iterator (Creational).swift */; };
-		32EF98982880AE6B000436CA /* Sample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32EF98962880AE6B000436CA /* Sample.xcdatamodeld */; };
-		32EF989A2880B136000436CA /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EF98992880B136000436CA /* SampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,8 @@
 		32159B0728820D4F002F8D0F /* Prototype (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prototype (Creational).swift"; sourceTree = "<group>"; };
 		32159B0928821210002F8D0F /* Builder (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Builder (Creational).swift"; sourceTree = "<group>"; };
 		32159B0B288213FA002F8D0F /* Factory (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Factory (Creational).swift"; sourceTree = "<group>"; };
+		321E3298288648D4008AECC6 /* OpenClosed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosed.swift; sourceTree = "<group>"; };
+		321E329B28864A7F008AECC6 /* enums .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "enums .swift"; sourceTree = "<group>"; };
 		3231A11A2882256800943A7A /* Adapter (Structural).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Adapter (Structural).swift"; sourceTree = "<group>"; };
 		3231A11C288248E100943A7A /* 18- BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18- BinarySearch.swift"; sourceTree = "<group>"; };
 		3231A11E28824A4F00943A7A /* 19- B-Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19- B-Tree.swift"; sourceTree = "<group>"; };
@@ -73,7 +76,6 @@
 		325216B22884D1760023B7BA /* SingleResponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResponsibility.swift; sourceTree = "<group>"; };
 		327C9FA3287F900F00C4E45A /* CombineGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineGeneral.swift; sourceTree = "<group>"; };
 		327C9FA6287F9E4800C4E45A /* PropertyWrapperInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperInfo.swift; sourceTree = "<group>"; };
-		327C9FA9287F9E5600C4E45A /* CoreDataInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataInfo.swift; sourceTree = "<group>"; };
 		327C9FAC287F9F0300C4E45A /* 2- Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2- Arrays.swift"; sourceTree = "<group>"; };
 		327C9FAE287F9F1600C4E45A /* 3- Linked Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3- Linked Lists.swift"; sourceTree = "<group>"; };
 		327C9FB0287F9F3000C4E45A /* 4- BigO (Reduced).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4- BigO (Reduced).swift"; sourceTree = "<group>"; };
@@ -88,6 +90,8 @@
 		327C9FC5287FA09900C4E45A /* 14- Facebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14- Facebook.swift"; sourceTree = "<group>"; };
 		327C9FC7287FA0A600C4E45A /* 15- Amazon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15- Amazon.swift"; sourceTree = "<group>"; };
 		329097DC288109E20090BA99 /* 16- Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16- Stack.swift"; sourceTree = "<group>"; };
+		32AB51AA2886230600C445BC /* Publishers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publishers.swift; sourceTree = "<group>"; };
+		32AB51AE288624C800C445BC /* UserInputWithDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputWithDefaults.swift; sourceTree = "<group>"; };
 		32C9A613287F40FD009EB7CA /* Karate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate.swift; sourceTree = "<group>"; };
 		32C9A614287F40FD009EB7CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32C9A615287F40FF009EB7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,8 +102,6 @@
 		32DAA4872880D90600FA2111 /* Response (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Response (Creational).swift"; sourceTree = "<group>"; };
 		32DAA4892880DC3900FA2111 /* Command (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Command (Creational).swift"; sourceTree = "<group>"; };
 		32DAA48B2880E40300FA2111 /* Iterator (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Iterator (Creational).swift"; sourceTree = "<group>"; };
-		32EF98972880AE6B000436CA /* Sample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sample.xcdatamodel; sourceTree = "<group>"; };
-		32EF98992880B136000436CA /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			children = (
 				3208886D288357E3008E8D99 /* ListRow.swift */,
 				3208886F288360FD008E8D99 /* TextCleanUP.swift */,
+				32AB51AE288624C800C445BC /* UserInputWithDefaults.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -135,6 +138,14 @@
 				32088874288369CA008E8D99 /* 1.swift */,
 			);
 			path = POP;
+			sourceTree = "<group>";
+		};
+		321E329A28864A6F008AECC6 /* Standard Library */ = {
+			isa = PBXGroup;
+			children = (
+				321E329B28864A7F008AECC6 /* enums .swift */,
+			);
+			path = "Standard Library";
 			sourceTree = "<group>";
 		};
 		325216AE2884BE5F0023B7BA /* Functions */ = {
@@ -149,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				325216B22884D1760023B7BA /* SingleResponsibility.swift */,
+				321E3298288648D4008AECC6 /* OpenClosed.swift */,
 			);
 			path = S.O.L.I.D.;
 			sourceTree = "<group>";
@@ -165,9 +177,6 @@
 		327C9FA1287F8FDA00C4E45A /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
-				327C9FA9287F9E5600C4E45A /* CoreDataInfo.swift */,
-				32EF98962880AE6B000436CA /* Sample.xcdatamodeld */,
-				32EF98992880B136000436CA /* SampleView.swift */,
 			);
 			path = "Core Data";
 			sourceTree = "<group>";
@@ -176,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				327C9FA3287F900F00C4E45A /* CombineGeneral.swift */,
+				32AB51AA2886230600C445BC /* Publishers.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -183,6 +193,7 @@
 		327C9FA5287F9D9500C4E45A /* Karate */ = {
 			isa = PBXGroup;
 			children = (
+				321E329A28864A6F008AECC6 /* Standard Library */,
 				325216B12884D1600023B7BA /* S.O.L.I.D. */,
 				3208886C288357B2008E8D99 /* SwiftUI */,
 				32088873288369BD008E8D99 /* POP */,
@@ -375,21 +386,20 @@
 			files = (
 				329097DD288109E20090BA99 /* 16- Stack.swift in Sources */,
 				3231A11F28824A4F00943A7A /* 19- B-Tree.swift in Sources */,
-				32EF98982880AE6B000436CA /* Sample.xcdatamodeld in Sources */,
 				3231A11D288248E100943A7A /* 18- BinarySearch.swift in Sources */,
 				32C9A644287F45EC009EB7CA /* 1- BigO.swift in Sources */,
 				3231A12A28825CC700943A7A /* Composite (Structural).swift in Sources */,
 				32159B0628820AA8002F8D0F /* Singleton (Creational).swift in Sources */,
-				327C9FAA287F9E5600C4E45A /* CoreDataInfo.swift in Sources */,
-				32EF989A2880B136000436CA /* SampleView.swift in Sources */,
 				327C9FB9287FA03400C4E45A /* 8- Memoization.swift in Sources */,
 				327C9FA7287F9E4800C4E45A /* PropertyWrapperInfo.swift in Sources */,
 				327C9FBE287FA05600C4E45A /* 10- Graphs.swift in Sources */,
+				32AB51AF288624C800C445BC /* UserInputWithDefaults.swift in Sources */,
 				32C9A625287F40FF009EB7CA /* ContentView.swift in Sources */,
 				32DAA4882880D90600FA2111 /* Response (Creational).swift in Sources */,
 				32159B0828820D4F002F8D0F /* Prototype (Creational).swift in Sources */,
 				32159B0A28821210002F8D0F /* Builder (Creational).swift in Sources */,
 				325216B32884D1760023B7BA /* SingleResponsibility.swift in Sources */,
+				321E329C28864A7F008AECC6 /* enums .swift in Sources */,
 				327C9FB1287F9F3000C4E45A /* 4- BigO (Reduced).swift in Sources */,
 				327C9FC8287FA0A600C4E45A /* 15- Amazon.swift in Sources */,
 				32088875288369CA008E8D99 /* 1.swift in Sources */,
@@ -409,6 +419,8 @@
 				32C9A623287F40FF009EB7CA /* Karate.swift in Sources */,
 				3208886E288357E3008E8D99 /* ListRow.swift in Sources */,
 				327C9FC2287FA07C00C4E45A /* 12- Greatest Hits.swift in Sources */,
+				321E3299288648D4008AECC6 /* OpenClosed.swift in Sources */,
+				32AB51AB2886230600C445BC /* Publishers.swift in Sources */,
 				327C9FAD287F9F0300C4E45A /* 2- Arrays.swift in Sources */,
 				327C9FA4287F900F00C4E45A /* CombineGeneral.swift in Sources */,
 				3231A12728825C6900943A7A /* Bridge (Structural).swift in Sources */,
@@ -686,19 +698,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		32EF98962880AE6B000436CA /* Sample.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				32EF98972880AE6B000436CA /* Sample.xcdatamodel */,
-			);
-			currentVersion = 32EF98972880AE6B000436CA /* Sample.xcdatamodel */;
-			path = Sample.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 32C9A60E287F40FD009EB7CA /* Project object */;
 }

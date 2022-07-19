@@ -27,11 +27,12 @@ extension Text {
 
 struct TextCleanUP: View {
     var body: some View {
-        Text("Hello World")
-            .commonstyle()
-        Text("Hello World")
-            .bigStyle()
-    
+        VStack {
+            Text("Hello World")
+                .commonstyle()
+            Text("Hello World")
+                .bigStyle()
+        }
     }
 }
 

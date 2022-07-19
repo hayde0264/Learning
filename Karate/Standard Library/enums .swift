@@ -6,9 +6,24 @@
 //
 
 import Foundation
-import UIKit
 import SwiftUI
 
+                                                                    //MARK: Background
+                                                                    /* An ENUMERATION is a list of mutually
+                                                                       exclusive cases that define a common
+                                                                       type. Enums provide a type-safe alternative
+                                                                       to integer values or strings.
+                                                                       
+                                                                       You can use enumerations to handle
+                                                                       responses, store state and encapsulate
+                                                                       values.
+                                                                     
+                                                                       ================
+                                                                       HOW TO USE ENUMS
+                                                                       ================
+                                                                                       1.
+                                                                    */
+//MARK: 1st Example
 enum Number {
     case one
     case two
@@ -18,6 +33,9 @@ enum Number {
 enum NumberAlterative {
     case one, two, three
 }
+
+
+//MARK: 2nd Example
 
 enum User {
     case paid
@@ -34,6 +52,7 @@ enum User {
 }
 
 
+//MARK: 3rd Example
 enum RawValueType: String {
     case one = "Number One"
     case two = "Number Two"
@@ -51,6 +70,9 @@ enum RawValueType: String {
     }
 }
 
+
+//MARK: 4th Example
+
 enum AssociatedTypes {
     case red(Color)
     case blue(Color)
@@ -63,9 +85,10 @@ enum AssociatedTypes {
             return Color.blue
         }
     }
-   
 }
 
+
+//MARK: 5th Example
 enum StringType: String {
     case mercury = "Mercury"
     case venus = "Venus"
@@ -79,24 +102,6 @@ enum StringType: String {
             return self.rawValue
         case .saturn:
             return self.rawValue
-        }
-    }
-}
-
-enum CoolShit {
-    enum Key: String {
-        case red
-        case blue
-        
-    
-        
-        var sendValues: String {
-            switch self {
-            case .red:
-                return "red"
-            case .blue:
-                return "blue"
-            }
         }
     }
 }

@@ -9,14 +9,13 @@
 /* Begin PBXBuildFile section */
 		3208886E288357E3008E8D99 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208886D288357E3008E8D99 /* ListRow.swift */; };
 		32088870288360FD008E8D99 /* TextCleanUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208886F288360FD008E8D99 /* TextCleanUP.swift */; };
-		32088872288366AC008E8D99 /* @escaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32088871288366AC008E8D99 /* @escaping.swift */; };
-		32088875288369CA008E8D99 /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32088874288369CA008E8D99 /* 1.swift */; };
+		32088875288369CA008E8D99 /* Protos&Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32088874288369CA008E8D99 /* Protos&Enums.swift */; };
 		32159B0628820AA8002F8D0F /* Singleton (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0528820AA8002F8D0F /* Singleton (Creational).swift */; };
 		32159B0828820D4F002F8D0F /* Prototype (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0728820D4F002F8D0F /* Prototype (Creational).swift */; };
 		32159B0A28821210002F8D0F /* Builder (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0928821210002F8D0F /* Builder (Creational).swift */; };
 		32159B0C288213FA002F8D0F /* Factory (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0B288213FA002F8D0F /* Factory (Creational).swift */; };
 		321E3299288648D4008AECC6 /* OpenClosed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E3298288648D4008AECC6 /* OpenClosed.swift */; };
-		321E329C28864A7F008AECC6 /* enums .swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E329B28864A7F008AECC6 /* enums .swift */; };
+		321E329C28864A7F008AECC6 /* Enums .swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E329B28864A7F008AECC6 /* Enums .swift */; };
 		3231A11B2882256800943A7A /* Adapter (Structural).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231A11A2882256800943A7A /* Adapter (Structural).swift */; };
 		3231A11D288248E100943A7A /* 18- BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231A11C288248E100943A7A /* 18- BinarySearch.swift */; };
 		3231A11F28824A4F00943A7A /* 19- B-Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231A11E28824A4F00943A7A /* 19- B-Tree.swift */; };
@@ -25,8 +24,9 @@
 		3231A12A28825CC700943A7A /* Composite (Structural).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231A12928825CC700943A7A /* Composite (Structural).swift */; };
 		325216B02884BE8B0023B7BA /* 1- Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325216AF2884BE8B0023B7BA /* 1- Functions.swift */; };
 		325216B32884D1760023B7BA /* SingleResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325216B22884D1760023B7BA /* SingleResponsibility.swift */; };
+		3257C972288743050044BF39 /* Protocols .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257C971288743050044BF39 /* Protocols .swift */; };
 		327C9FA4287F900F00C4E45A /* CombineGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA3287F900F00C4E45A /* CombineGeneral.swift */; };
-		327C9FA7287F9E4800C4E45A /* PropertyWrapperInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA6287F9E4800C4E45A /* PropertyWrapperInfo.swift */; };
+		327C9FA7287F9E4800C4E45A /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FA6287F9E4800C4E45A /* PropertyWrappers.swift */; };
 		327C9FAD287F9F0300C4E45A /* 2- Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FAC287F9F0300C4E45A /* 2- Arrays.swift */; };
 		327C9FAF287F9F1600C4E45A /* 3- Linked Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FAE287F9F1600C4E45A /* 3- Linked Lists.swift */; };
 		327C9FB1287F9F3000C4E45A /* 4- BigO (Reduced).swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FB0287F9F3000C4E45A /* 4- BigO (Reduced).swift */; };
@@ -41,7 +41,7 @@
 		327C9FC6287FA09900C4E45A /* 14- Facebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FC5287FA09900C4E45A /* 14- Facebook.swift */; };
 		327C9FC8287FA0A600C4E45A /* 15- Amazon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FC7287FA0A600C4E45A /* 15- Amazon.swift */; };
 		329097DD288109E20090BA99 /* 16- Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329097DC288109E20090BA99 /* 16- Stack.swift */; };
-		32AB51AB2886230600C445BC /* Publishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB51AA2886230600C445BC /* Publishers.swift */; };
+		32AB51AB2886230600C445BC /* 1- Publishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB51AA2886230600C445BC /* 1- Publishers.swift */; };
 		32AB51AF288624C800C445BC /* UserInputWithDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB51AE288624C800C445BC /* UserInputWithDefaults.swift */; };
 		32C9A623287F40FF009EB7CA /* Karate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A613287F40FD009EB7CA /* Karate.swift */; };
 		32C9A624287F40FF009EB7CA /* Karate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A613287F40FD009EB7CA /* Karate.swift */; };
@@ -58,14 +58,13 @@
 /* Begin PBXFileReference section */
 		3208886D288357E3008E8D99 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
 		3208886F288360FD008E8D99 /* TextCleanUP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCleanUP.swift; sourceTree = "<group>"; };
-		32088871288366AC008E8D99 /* @escaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@escaping.swift"; sourceTree = "<group>"; };
-		32088874288369CA008E8D99 /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
+		32088874288369CA008E8D99 /* Protos&Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protos&Enums.swift"; sourceTree = "<group>"; };
 		32159B0528820AA8002F8D0F /* Singleton (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singleton (Creational).swift"; sourceTree = "<group>"; };
 		32159B0728820D4F002F8D0F /* Prototype (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prototype (Creational).swift"; sourceTree = "<group>"; };
 		32159B0928821210002F8D0F /* Builder (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Builder (Creational).swift"; sourceTree = "<group>"; };
 		32159B0B288213FA002F8D0F /* Factory (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Factory (Creational).swift"; sourceTree = "<group>"; };
 		321E3298288648D4008AECC6 /* OpenClosed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosed.swift; sourceTree = "<group>"; };
-		321E329B28864A7F008AECC6 /* enums .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "enums .swift"; sourceTree = "<group>"; };
+		321E329B28864A7F008AECC6 /* Enums .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enums .swift"; sourceTree = "<group>"; };
 		3231A11A2882256800943A7A /* Adapter (Structural).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Adapter (Structural).swift"; sourceTree = "<group>"; };
 		3231A11C288248E100943A7A /* 18- BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18- BinarySearch.swift"; sourceTree = "<group>"; };
 		3231A11E28824A4F00943A7A /* 19- B-Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19- B-Tree.swift"; sourceTree = "<group>"; };
@@ -74,8 +73,9 @@
 		3231A12928825CC700943A7A /* Composite (Structural).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Composite (Structural).swift"; sourceTree = "<group>"; };
 		325216AF2884BE8B0023B7BA /* 1- Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1- Functions.swift"; sourceTree = "<group>"; };
 		325216B22884D1760023B7BA /* SingleResponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResponsibility.swift; sourceTree = "<group>"; };
+		3257C971288743050044BF39 /* Protocols .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocols .swift"; sourceTree = "<group>"; };
 		327C9FA3287F900F00C4E45A /* CombineGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineGeneral.swift; sourceTree = "<group>"; };
-		327C9FA6287F9E4800C4E45A /* PropertyWrapperInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperInfo.swift; sourceTree = "<group>"; };
+		327C9FA6287F9E4800C4E45A /* PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers.swift; sourceTree = "<group>"; };
 		327C9FAC287F9F0300C4E45A /* 2- Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2- Arrays.swift"; sourceTree = "<group>"; };
 		327C9FAE287F9F1600C4E45A /* 3- Linked Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3- Linked Lists.swift"; sourceTree = "<group>"; };
 		327C9FB0287F9F3000C4E45A /* 4- BigO (Reduced).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4- BigO (Reduced).swift"; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		327C9FC5287FA09900C4E45A /* 14- Facebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14- Facebook.swift"; sourceTree = "<group>"; };
 		327C9FC7287FA0A600C4E45A /* 15- Amazon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15- Amazon.swift"; sourceTree = "<group>"; };
 		329097DC288109E20090BA99 /* 16- Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16- Stack.swift"; sourceTree = "<group>"; };
-		32AB51AA2886230600C445BC /* Publishers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publishers.swift; sourceTree = "<group>"; };
+		32AB51AA2886230600C445BC /* 1- Publishers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1- Publishers.swift"; sourceTree = "<group>"; };
 		32AB51AE288624C800C445BC /* UserInputWithDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputWithDefaults.swift; sourceTree = "<group>"; };
 		32C9A613287F40FD009EB7CA /* Karate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate.swift; sourceTree = "<group>"; };
 		32C9A614287F40FD009EB7CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -135,7 +135,8 @@
 		32088873288369BD008E8D99 /* POP */ = {
 			isa = PBXGroup;
 			children = (
-				32088874288369CA008E8D99 /* 1.swift */,
+				32088874288369CA008E8D99 /* Protos&Enums.swift */,
+				3257C971288743050044BF39 /* Protocols .swift */,
 			);
 			path = POP;
 			sourceTree = "<group>";
@@ -143,7 +144,7 @@
 		321E329A28864A6F008AECC6 /* Standard Library */ = {
 			isa = PBXGroup;
 			children = (
-				321E329B28864A7F008AECC6 /* enums .swift */,
+				321E329B28864A7F008AECC6 /* Enums .swift */,
 			);
 			path = "Standard Library";
 			sourceTree = "<group>";
@@ -168,8 +169,7 @@
 		327C9FA0287F8FD500C4E45A /* @ */ = {
 			isa = PBXGroup;
 			children = (
-				327C9FA6287F9E4800C4E45A /* PropertyWrapperInfo.swift */,
-				32088871288366AC008E8D99 /* @escaping.swift */,
+				327C9FA6287F9E4800C4E45A /* PropertyWrappers.swift */,
 			);
 			path = "@";
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				327C9FA3287F900F00C4E45A /* CombineGeneral.swift */,
-				32AB51AA2886230600C445BC /* Publishers.swift */,
+				32AB51AA2886230600C445BC /* 1- Publishers.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -391,7 +391,8 @@
 				3231A12A28825CC700943A7A /* Composite (Structural).swift in Sources */,
 				32159B0628820AA8002F8D0F /* Singleton (Creational).swift in Sources */,
 				327C9FB9287FA03400C4E45A /* 8- Memoization.swift in Sources */,
-				327C9FA7287F9E4800C4E45A /* PropertyWrapperInfo.swift in Sources */,
+				3257C972288743050044BF39 /* Protocols .swift in Sources */,
+				327C9FA7287F9E4800C4E45A /* PropertyWrappers.swift in Sources */,
 				327C9FBE287FA05600C4E45A /* 10- Graphs.swift in Sources */,
 				32AB51AF288624C800C445BC /* UserInputWithDefaults.swift in Sources */,
 				32C9A625287F40FF009EB7CA /* ContentView.swift in Sources */,
@@ -399,10 +400,10 @@
 				32159B0828820D4F002F8D0F /* Prototype (Creational).swift in Sources */,
 				32159B0A28821210002F8D0F /* Builder (Creational).swift in Sources */,
 				325216B32884D1760023B7BA /* SingleResponsibility.swift in Sources */,
-				321E329C28864A7F008AECC6 /* enums .swift in Sources */,
+				321E329C28864A7F008AECC6 /* Enums .swift in Sources */,
 				327C9FB1287F9F3000C4E45A /* 4- BigO (Reduced).swift in Sources */,
 				327C9FC8287FA0A600C4E45A /* 15- Amazon.swift in Sources */,
-				32088875288369CA008E8D99 /* 1.swift in Sources */,
+				32088875288369CA008E8D99 /* Protos&Enums.swift in Sources */,
 				32159B0C288213FA002F8D0F /* Factory (Creational).swift in Sources */,
 				327C9FC0287FA06E00C4E45A /* 11- Commonly Asked.swift in Sources */,
 				32088870288360FD008E8D99 /* TextCleanUP.swift in Sources */,
@@ -414,13 +415,12 @@
 				327C9FC6287FA09900C4E45A /* 14- Facebook.swift in Sources */,
 				325216B02884BE8B0023B7BA /* 1- Functions.swift in Sources */,
 				3231A12128824BEF00943A7A /* 20- GeneralTree.swift in Sources */,
-				32088872288366AC008E8D99 /* @escaping.swift in Sources */,
 				32DAA48C2880E40300FA2111 /* Iterator (Creational).swift in Sources */,
 				32C9A623287F40FF009EB7CA /* Karate.swift in Sources */,
 				3208886E288357E3008E8D99 /* ListRow.swift in Sources */,
 				327C9FC2287FA07C00C4E45A /* 12- Greatest Hits.swift in Sources */,
 				321E3299288648D4008AECC6 /* OpenClosed.swift in Sources */,
-				32AB51AB2886230600C445BC /* Publishers.swift in Sources */,
+				32AB51AB2886230600C445BC /* 1- Publishers.swift in Sources */,
 				327C9FAD287F9F0300C4E45A /* 2- Arrays.swift in Sources */,
 				327C9FA4287F900F00C4E45A /* CombineGeneral.swift in Sources */,
 				3231A12728825C6900943A7A /* Bridge (Structural).swift in Sources */,

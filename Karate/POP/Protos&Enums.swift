@@ -36,7 +36,6 @@ extension Saveable {
     }
 }
 
-
 struct DummyView2: View, Saveable {
 
     var body: some View {

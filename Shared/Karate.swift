@@ -6,7 +6,7 @@ import SwiftUI
 struct Karate: App {
     var body: some Scene {
         WindowGroup {
-            AppStorage()
+            ContentView()
         }
     }
 }

@@ -41,6 +41,7 @@
 		327C9FC6287FA09900C4E45A /* 14- Facebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FC5287FA09900C4E45A /* 14- Facebook.swift */; };
 		327C9FC8287FA0A600C4E45A /* 15- Amazon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FC7287FA0A600C4E45A /* 15- Amazon.swift */; };
 		329097DD288109E20090BA99 /* 16- Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329097DC288109E20090BA99 /* 16- Stack.swift */; };
+		329B8CA728888B9A009F86CC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B8CA628888B9A009F86CC /* Extensions.swift */; };
 		32AB51AB2886230600C445BC /* 1- Publishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB51AA2886230600C445BC /* 1- Publishers.swift */; };
 		32AB51AF288624C800C445BC /* UserInputWithDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB51AE288624C800C445BC /* UserInputWithDefaults.swift */; };
 		32C9A623287F40FF009EB7CA /* Karate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A613287F40FD009EB7CA /* Karate.swift */; };
@@ -90,6 +91,7 @@
 		327C9FC5287FA09900C4E45A /* 14- Facebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14- Facebook.swift"; sourceTree = "<group>"; };
 		327C9FC7287FA0A600C4E45A /* 15- Amazon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15- Amazon.swift"; sourceTree = "<group>"; };
 		329097DC288109E20090BA99 /* 16- Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16- Stack.swift"; sourceTree = "<group>"; };
+		329B8CA628888B9A009F86CC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		32AB51AA2886230600C445BC /* 1- Publishers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1- Publishers.swift"; sourceTree = "<group>"; };
 		32AB51AE288624C800C445BC /* UserInputWithDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputWithDefaults.swift; sourceTree = "<group>"; };
 		32C9A613287F40FD009EB7CA /* Karate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate.swift; sourceTree = "<group>"; };
@@ -126,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				3208886D288357E3008E8D99 /* ListRow.swift */,
-				3208886F288360FD008E8D99 /* TextCleanUP.swift */,
 				32AB51AE288624C800C445BC /* UserInputWithDefaults.swift */,
 			);
 			path = SwiftUI;
@@ -145,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				321E329B28864A7F008AECC6 /* Enums .swift */,
+				329B8CA628888B9A009F86CC /* Extensions.swift */,
 			);
 			path = "Standard Library";
 			sourceTree = "<group>";
@@ -193,6 +195,7 @@
 		327C9FA5287F9D9500C4E45A /* Karate */ = {
 			isa = PBXGroup;
 			children = (
+				329B8CA528888B4F009F86CC /* CLEAN CODE */,
 				321E329A28864A6F008AECC6 /* Standard Library */,
 				325216B12884D1600023B7BA /* S.O.L.I.D. */,
 				3208886C288357B2008E8D99 /* SwiftUI */,
@@ -205,6 +208,14 @@
 				327C9FA0287F8FD500C4E45A /* @ */,
 			);
 			path = Karate;
+			sourceTree = "<group>";
+		};
+		329B8CA528888B4F009F86CC /* CLEAN CODE */ = {
+			isa = PBXGroup;
+			children = (
+				3208886F288360FD008E8D99 /* TextCleanUP.swift */,
+			);
+			path = "CLEAN CODE";
 			sourceTree = "<group>";
 		};
 		32C9A60D287F40FD009EB7CA = {
@@ -403,6 +414,7 @@
 				321E329C28864A7F008AECC6 /* Enums .swift in Sources */,
 				327C9FB1287F9F3000C4E45A /* 4- BigO (Reduced).swift in Sources */,
 				327C9FC8287FA0A600C4E45A /* 15- Amazon.swift in Sources */,
+				329B8CA728888B9A009F86CC /* Extensions.swift in Sources */,
 				32088875288369CA008E8D99 /* Protos&Enums.swift in Sources */,
 				32159B0C288213FA002F8D0F /* Factory (Creational).swift in Sources */,
 				327C9FC0287FA06E00C4E45A /* 11- Commonly Asked.swift in Sources */,

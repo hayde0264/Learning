@@ -55,6 +55,7 @@
 		32DAA4882880D90600FA2111 /* Response (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAA4872880D90600FA2111 /* Response (Creational).swift */; };
 		32DAA48A2880DC3900FA2111 /* Command (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAA4892880DC3900FA2111 /* Command (Creational).swift */; };
 		32DAA48C2880E40300FA2111 /* Iterator (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAA48B2880E40300FA2111 /* Iterator (Creational).swift */; };
+		32FAE5822889EE340026B3E4 /* Filter Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FAE5812889EE340026B3E4 /* Filter Type.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 		32DAA4872880D90600FA2111 /* Response (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Response (Creational).swift"; sourceTree = "<group>"; };
 		32DAA4892880DC3900FA2111 /* Command (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Command (Creational).swift"; sourceTree = "<group>"; };
 		32DAA48B2880E40300FA2111 /* Iterator (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Iterator (Creational).swift"; sourceTree = "<group>"; };
+		32FAE5812889EE340026B3E4 /* Filter Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Filter Type.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				321E329B28864A7F008AECC6 /* Enums .swift */,
 				329B8CA628888B9A009F86CC /* Extensions.swift */,
+				32FAE5812889EE340026B3E4 /* Filter Type.swift */,
 			);
 			path = "Standard Library";
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FAE5822889EE340026B3E4 /* Filter Type.swift in Sources */,
 				329097DD288109E20090BA99 /* 16- Stack.swift in Sources */,
 				3231A11F28824A4F00943A7A /* 19- B-Tree.swift in Sources */,
 				3231A11D288248E100943A7A /* 18- BinarySearch.swift in Sources */,

@@ -42,16 +42,16 @@ struct ListRow: View {
         NavigationView {
             List {
                 ForEach(SystemIcon.allCases, id: \.self) { data in
-                        makeView(systemIcon: data)
+                    makeView(systemIcon: data)
                 }
             }
             .navigationTitle("Settings")
         }
     }
-
-    //MARK: View
-    @ViewBuilder
-    func makeView(systemIcon: SystemIcon) -> some View {
+    
+    
+    
+    private func makeView(systemIcon: SystemIcon) -> some View {
         HStack {
             Image(systemName: systemIcon.sfSymbol)
             Text(systemIcon.title)

@@ -16,6 +16,7 @@
 		32159B0C288213FA002F8D0F /* Factory (Creational).swift in Sources */ = {isa = PBXBuildFile; fileRef = 32159B0B288213FA002F8D0F /* Factory (Creational).swift */; };
 		321E3299288648D4008AECC6 /* OpenClosed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E3298288648D4008AECC6 /* OpenClosed.swift */; };
 		321E329C28864A7F008AECC6 /* Enums .swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E329B28864A7F008AECC6 /* Enums .swift */; };
+		3221EDFA288F4EDF00E05102 /* OnSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3221EDF9288F4EDF00E05102 /* OnSubmit.swift */; };
 		3231A11B2882256800943A7A /* Adapter (Structural).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231A11A2882256800943A7A /* Adapter (Structural).swift */; };
 		3231A11D288248E100943A7A /* 18- BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231A11C288248E100943A7A /* 18- BinarySearch.swift */; };
 		3231A11F28824A4F00943A7A /* 19- B-Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231A11E28824A4F00943A7A /* 19- B-Tree.swift */; };
@@ -74,6 +75,7 @@
 		32159B0B288213FA002F8D0F /* Factory (Creational).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Factory (Creational).swift"; sourceTree = "<group>"; };
 		321E3298288648D4008AECC6 /* OpenClosed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosed.swift; sourceTree = "<group>"; };
 		321E329B28864A7F008AECC6 /* Enums .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enums .swift"; sourceTree = "<group>"; };
+		3221EDF9288F4EDF00E05102 /* OnSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnSubmit.swift; sourceTree = "<group>"; };
 		3231A11A2882256800943A7A /* Adapter (Structural).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Adapter (Structural).swift"; sourceTree = "<group>"; };
 		3231A11C288248E100943A7A /* 18- BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18- BinarySearch.swift"; sourceTree = "<group>"; };
 		3231A11E28824A4F00943A7A /* 19- B-Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19- B-Tree.swift"; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				32A21D91288F299E00F16DD4 /* Custom Modifiers.swift */,
 				32A21D95288F2EF700F16DD4 /* Observable Obj.swift */,
 				32A21D97288F32B600F16DD4 /* Menus.swift */,
+				3221EDF9288F4EDF00E05102 /* OnSubmit.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				321E329C28864A7F008AECC6 /* Enums .swift in Sources */,
 				327C9FB1287F9F3000C4E45A /* 4- BigO (Reduced).swift in Sources */,
 				327C9FC8287FA0A600C4E45A /* 15- Amazon.swift in Sources */,
+				3221EDFA288F4EDF00E05102 /* OnSubmit.swift in Sources */,
 				329B8CA728888B9A009F86CC /* Extensions.swift in Sources */,
 				32088875288369CA008E8D99 /* Protos&Enums.swift in Sources */,
 				32159B0C288213FA002F8D0F /* Factory (Creational).swift in Sources */,

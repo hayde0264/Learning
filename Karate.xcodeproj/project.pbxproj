@@ -42,8 +42,14 @@
 		327C9FC8287FA0A600C4E45A /* 15- Amazon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C9FC7287FA0A600C4E45A /* 15- Amazon.swift */; };
 		329097DD288109E20090BA99 /* 16- Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329097DC288109E20090BA99 /* 16- Stack.swift */; };
 		329B8CA728888B9A009F86CC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B8CA628888B9A009F86CC /* Extensions.swift */; };
+		32A21D8C288F189800F16DD4 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A21D8B288F189800F16DD4 /* TextView.swift */; };
+		32A21D8E288F1B9800F16DD4 /* Framing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A21D8D288F1B9800F16DD4 /* Framing.swift */; };
+		32A21D90288F257700F16DD4 /* Event Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A21D8F288F257700F16DD4 /* Event Modifiers.swift */; };
+		32A21D92288F299E00F16DD4 /* Custom Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A21D91288F299E00F16DD4 /* Custom Modifiers.swift */; };
+		32A21D94288F2AC900F16DD4 /* ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A21D93288F2AC900F16DD4 /* ViewBuilder.swift */; };
+		32A21D96288F2EF700F16DD4 /* Observable Obj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A21D95288F2EF700F16DD4 /* Observable Obj.swift */; };
+		32A21D98288F32B600F16DD4 /* Menus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A21D97288F32B600F16DD4 /* Menus.swift */; };
 		32AB51AB2886230600C445BC /* 1- Publishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB51AA2886230600C445BC /* 1- Publishers.swift */; };
-		32AB51AF288624C800C445BC /* UserInputWithDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB51AE288624C800C445BC /* UserInputWithDefaults.swift */; };
 		32BD23752888BDEC00F89252 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BD23742888BDEC00F89252 /* Alerts.swift */; };
 		32C9A623287F40FF009EB7CA /* Karate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A613287F40FD009EB7CA /* Karate.swift */; };
 		32C9A624287F40FF009EB7CA /* Karate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A613287F40FD009EB7CA /* Karate.swift */; };
@@ -94,8 +100,14 @@
 		327C9FC7287FA0A600C4E45A /* 15- Amazon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15- Amazon.swift"; sourceTree = "<group>"; };
 		329097DC288109E20090BA99 /* 16- Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16- Stack.swift"; sourceTree = "<group>"; };
 		329B8CA628888B9A009F86CC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		32A21D8B288F189800F16DD4 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		32A21D8D288F1B9800F16DD4 /* Framing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framing.swift; sourceTree = "<group>"; };
+		32A21D8F288F257700F16DD4 /* Event Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Event Modifiers.swift"; sourceTree = "<group>"; };
+		32A21D91288F299E00F16DD4 /* Custom Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom Modifiers.swift"; sourceTree = "<group>"; };
+		32A21D93288F2AC900F16DD4 /* ViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilder.swift; sourceTree = "<group>"; };
+		32A21D95288F2EF700F16DD4 /* Observable Obj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable Obj.swift"; sourceTree = "<group>"; };
+		32A21D97288F32B600F16DD4 /* Menus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menus.swift; sourceTree = "<group>"; };
 		32AB51AA2886230600C445BC /* 1- Publishers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1- Publishers.swift"; sourceTree = "<group>"; };
-		32AB51AE288624C800C445BC /* UserInputWithDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputWithDefaults.swift; sourceTree = "<group>"; };
 		32BD23742888BDEC00F89252 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		32C9A613287F40FD009EB7CA /* Karate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate.swift; sourceTree = "<group>"; };
 		32C9A614287F40FD009EB7CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,8 +144,13 @@
 			isa = PBXGroup;
 			children = (
 				3208886D288357E3008E8D99 /* ListRow.swift */,
-				32AB51AE288624C800C445BC /* UserInputWithDefaults.swift */,
 				32BD23742888BDEC00F89252 /* Alerts.swift */,
+				32A21D8B288F189800F16DD4 /* TextView.swift */,
+				32A21D8D288F1B9800F16DD4 /* Framing.swift */,
+				32A21D8F288F257700F16DD4 /* Event Modifiers.swift */,
+				32A21D91288F299E00F16DD4 /* Custom Modifiers.swift */,
+				32A21D95288F2EF700F16DD4 /* Observable Obj.swift */,
+				32A21D97288F32B600F16DD4 /* Menus.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -178,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				327C9FA6287F9E4800C4E45A /* PropertyWrappers.swift */,
+				32A21D93288F2AC900F16DD4 /* ViewBuilder.swift */,
 			);
 			path = "@";
 			sourceTree = "<group>";
@@ -401,6 +419,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A21D92288F299E00F16DD4 /* Custom Modifiers.swift in Sources */,
 				32FAE5822889EE340026B3E4 /* Filter Type.swift in Sources */,
 				329097DD288109E20090BA99 /* 16- Stack.swift in Sources */,
 				3231A11F28824A4F00943A7A /* 19- B-Tree.swift in Sources */,
@@ -412,11 +431,12 @@
 				3257C972288743050044BF39 /* Protocols .swift in Sources */,
 				327C9FA7287F9E4800C4E45A /* PropertyWrappers.swift in Sources */,
 				327C9FBE287FA05600C4E45A /* 10- Graphs.swift in Sources */,
-				32AB51AF288624C800C445BC /* UserInputWithDefaults.swift in Sources */,
 				32C9A625287F40FF009EB7CA /* ContentView.swift in Sources */,
 				32DAA4882880D90600FA2111 /* Response (Creational).swift in Sources */,
+				32A21D8E288F1B9800F16DD4 /* Framing.swift in Sources */,
 				32159B0828820D4F002F8D0F /* Prototype (Creational).swift in Sources */,
 				32159B0A28821210002F8D0F /* Builder (Creational).swift in Sources */,
+				32A21D94288F2AC900F16DD4 /* ViewBuilder.swift in Sources */,
 				325216B32884D1760023B7BA /* SingleResponsibility.swift in Sources */,
 				321E329C28864A7F008AECC6 /* Enums .swift in Sources */,
 				327C9FB1287F9F3000C4E45A /* 4- BigO (Reduced).swift in Sources */,
@@ -424,6 +444,7 @@
 				329B8CA728888B9A009F86CC /* Extensions.swift in Sources */,
 				32088875288369CA008E8D99 /* Protos&Enums.swift in Sources */,
 				32159B0C288213FA002F8D0F /* Factory (Creational).swift in Sources */,
+				32A21D96288F2EF700F16DD4 /* Observable Obj.swift in Sources */,
 				327C9FC0287FA06E00C4E45A /* 11- Commonly Asked.swift in Sources */,
 				32088870288360FD008E8D99 /* TextCleanUP.swift in Sources */,
 				3231A11B2882256800943A7A /* Adapter (Structural).swift in Sources */,
@@ -436,6 +457,8 @@
 				3231A12128824BEF00943A7A /* 20- GeneralTree.swift in Sources */,
 				32DAA48C2880E40300FA2111 /* Iterator (Creational).swift in Sources */,
 				32C9A623287F40FF009EB7CA /* Karate.swift in Sources */,
+				32A21D98288F32B600F16DD4 /* Menus.swift in Sources */,
+				32A21D90288F257700F16DD4 /* Event Modifiers.swift in Sources */,
 				3208886E288357E3008E8D99 /* ListRow.swift in Sources */,
 				327C9FC2287FA07C00C4E45A /* 12- Greatest Hits.swift in Sources */,
 				321E3299288648D4008AECC6 /* OpenClosed.swift in Sources */,
@@ -444,6 +467,7 @@
 				327C9FA4287F900F00C4E45A /* CombineGeneral.swift in Sources */,
 				3231A12728825C6900943A7A /* Bridge (Structural).swift in Sources */,
 				327C9FC4287FA08900C4E45A /* 13- Google.swift in Sources */,
+				32A21D8C288F189800F16DD4 /* TextView.swift in Sources */,
 				32BD23752888BDEC00F89252 /* Alerts.swift in Sources */,
 				32DAA48A2880DC3900FA2111 /* Command (Creational).swift in Sources */,
 			);
